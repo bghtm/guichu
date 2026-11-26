@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="冰棍鬼畜作品集">
+  <g transform="translate(32 32)">
+    <g id="lobes">
+      <circle cx="0" cy="0" r="30" fill="#fde7ef"/>
+    </g>
+    <polygon fill="#ffffff" stroke="#ffffff" stroke-width="9" stroke-linejoin="round"
+             points="0,-22 8.4,-20.3 15.1,-16.1 20.3,-10.2 23.6,-3.2 24.9,4.4 24.2,12.1 21.5,19.3 17,25.5 11,30.1 4.1,32.8 -3.2,33.5 -10.4,32.1 -17,29 -22.3,24.3 -26.1,18.4 -28.1,11.7 -28.2,4.6 -26.5,-2.2 -23.1,-8.4 -18.4,-13.7 -12.7,-17.8 -6.3,-20.7 0.6,-22.3"/>
+    <circle cx="0" cy="0" r="17" fill="#ffffff"/>
+    <path d="M0 0a4 4 0 1 1 4 4A8 8 0 0 1-4-4a12 12 0 0 1 12-12 16 16 0 0 1 16 16"
+          fill="none" stroke="#f47fb0" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

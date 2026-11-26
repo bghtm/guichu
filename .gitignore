@@ -1,0 +1,14 @@
+# 本机中间产物
+.build/
+shots/
+node_modules/
+
+# 原始素材路径清单（含本机绝对路径，不进仓库）
+content/sources.local.json
+
+# 系统杂物
+Thumbs.db
+.DS_Store
+desktop.ini
+__pycache__/
+*.pyc

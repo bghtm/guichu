@@ -1,0 +1,154 @@
+{
+  "gc04": {
+    "duration": 23.4,
+    "durationText": "0:23",
+    "source": {
+      "width": 852,
+      "height": 480,
+      "fps": 25,
+      "bytes": 4809361
+    },
+    "width": 852,
+    "height": 480,
+    "crf": 24,
+    "bytes": 4124041,
+    "segments": 4,
+    "hls": "media/hls/gc04/index.m3u8",
+    "cover": "media/covers/gc04.webp",
+    "coverSm": "media/covers/gc04-sm.webp",
+    "encoded": "2026-11-26"
+  },
+  "gc01": {
+    "duration": 73.7,
+    "durationText": "1:14",
+    "source": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 25,
+      "bytes": 139443447
+    },
+    "width": 900,
+    "height": 1600,
+    "crf": 25,
+    "bytes": 19163747,
+    "segments": 13,
+    "hls": "media/hls/gc01/index.m3u8",
+    "cover": "media/covers/gc01.webp",
+    "coverSm": "media/covers/gc01-sm.webp",
+    "encoded": "2026-11-26"
+  },
+  "gc02": {
+    "duration": 81,
+    "durationText": "1:21",
+    "source": {
+      "width": 800,
+      "height": 532,
+      "fps": 25,
+      "bytes": 16640853
+    },
+    "width": 800,
+    "height": 532,
+    "crf": 25,
+    "bytes": 2792549,
+    "segments": 14,
+    "hls": "media/hls/gc02/index.m3u8",
+    "cover": "media/covers/gc02.webp",
+    "coverSm": "media/covers/gc02-sm.webp",
+    "encoded": "2026-11-26"
+  },
+  "gc03": {
+    "duration": 90.4,
+    "durationText": "1:30",
+    "source": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "bytes": 35434817
+    },
+    "width": 1600,
+    "height": 900,
+    "crf": 25,
+    "bytes": 5738945,
+    "segments": 16,
+    "hls": "media/hls/gc03/index.m3u8",
+    "cover": "media/covers/gc03.webp",
+    "coverSm": "media/covers/gc03-sm.webp",
+    "encoded": "2026-11-26"
+  },
+  "gc05": {
+    "duration": 30.1,
+    "durationText": "0:30",
+    "source": {
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "bytes": 34876872
+    },
+    "width": 720,
+    "height": 1280,
+    "crf": 24,
+    "bytes": 7149773,
+    "segments": 6,
+    "hls": "media/hls/gc05/index.m3u8",
+    "cover": "media/covers/gc05.webp",
+    "coverSm": "media/covers/gc05-sm.webp",
+    "encoded": "2026-11-26"
+  },
+  "gc06": {
+    "duration": 16.8,
+    "durationText": "0:17",
+    "source": {
+      "width": 1080,
+      "height": 1918,
+      "fps": 30,
+      "bytes": 42671913
+    },
+    "width": 900,
+    "height": 1600,
+    "crf": 24,
+    "bytes": 9343079,
+    "segments": 3,
+    "hls": "media/hls/gc06/index.m3u8",
+    "cover": "media/covers/gc06.webp",
+    "coverSm": "media/covers/gc06-sm.webp",
+    "encoded": "2026-11-26"
+  },
+  "gc07": {
+    "duration": 252.8,
+    "durationText": "4:13",
+    "source": {
+      "width": 1080,
+      "height": 1918,
+      "fps": 30,
+      "bytes": 339839897
+    },
+    "width": 900,
+    "height": 1600,
+    "crf": 26,
+    "bytes": 34085643,
+    "segments": 43,
+    "hls": "media/hls/gc07/index.m3u8",
+    "cover": "media/covers/gc07.webp",
+    "coverSm": "media/covers/gc07-sm.webp",
+    "encoded": "2026-11-26"
+  },
+  "gc08": {
+    "duration": 213.2,
+    "durationText": "3:33",
+    "source": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "bytes": 226552624
+    },
+    "width": 900,
+    "height": 1600,
+    "crf": 26,
+    "bytes": 18093589,
+    "segments": 36,
+    "hls": "media/hls/gc08/index.m3u8",
+    "cover": "media/covers/gc08.webp",
+    "coverSm": "media/covers/gc08-sm.webp",
+    "encoded": "2026-11-26"
+  }
+}
