@@ -42,6 +42,7 @@ site/                    ← 这个目录就是发布产物
 tools/
   prepare-media.mjs     视频 → HLS 切片、封面 → webp 海报
   build-data.mjs        合并数据
+  verify.mjs            上线前自检（切片齐不齐、有没有超 100 MB 的单文件、总体积）
   cdp-shot.mjs          无依赖截图/验收（走 Edge DevTools 协议）
 server.mjs              本地静态服务器
 ```
@@ -90,6 +91,7 @@ server.mjs              本地静态服务器
 ```bash
 node tools/prepare-media.mjs --only gc09   # 只处理这一部
 node tools/build-data.mjs                  # 重新生成 site/data/works.json
+node tools/verify.mjs                      # 自检：切片是否齐、体积是否超限
 git add -A && git commit -m "第 9 部" && git push
 ```
 

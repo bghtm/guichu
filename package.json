@@ -9,6 +9,7 @@
     "media": "node tools/prepare-media.mjs",
     "data": "node tools/build-data.mjs",
     "build": "node tools/prepare-media.mjs && node tools/build-data.mjs",
+    "verify": "node tools/verify.mjs",
     "shot": "node tools/cdp-shot.mjs --url http://127.0.0.1:4477/ --out shots/home.png"
   },
   "engines": {
