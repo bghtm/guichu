@@ -2,6 +2,7 @@
 .build/
 shots/
 node_modules/
+*.tmp
 
 # 原始素材路径清单（含本机绝对路径，不进仓库）
 content/sources.local.json

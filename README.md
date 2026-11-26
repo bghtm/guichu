@@ -1,5 +1,7 @@
 # 冰棍鬼畜作品集
 
+**线上：<https://bghtm.github.io/guichu/>** · **仓库：<https://github.com/bghtm/guichu>**（公开）
+
 冰棍好烫啊（[@bghtnya](https://space.bilibili.com/)）的药圈 / 唐毓文向鬼畜作品存档站。
 形制仿照「跨圈人物志」那套蓝粉白鱼板底：一页列表 + 一页一作品，每部作品都有**封面、简介、制作信息与完整歌词**，正片以 HLS 切片在线播放。
 
@@ -117,17 +119,23 @@ git add -A && git commit -m "第 9 部" && git push
 
 ## 部署到 GitHub Pages
 
+已经接好了：仓库 `bghtm/guichu`（公开），Pages 的 **Source = GitHub Actions**，`site/` 就是发布产物。
+**以后只需要 `git push`**，Action 会自动重新上传并发布，1–2 分钟后线上生效。
+
 ```bash
-git init
-git add .
-git commit -m "冰棍鬼畜作品集"
+git add -A && git commit -m "第 9 部" && git push
+```
+
+新仓库要从零接一遍时：
+
+```bash
+git init && git add . && git commit -m "冰棍鬼畜作品集"
 git branch -M main
-git remote add origin git@github.com:<账号>/<仓库名>.git
+git remote add origin https://github.com/<账号>/guichu.git
 git push -u origin main
 ```
 
 然后 仓库 → **Settings → Pages → Build and deployment → Source 选 `GitHub Actions`**。
-之后每次 push 到 `main`，`.github/workflows/pages.yml` 会自动上传 `site/` 并发布。
 细节与常见坑见 [`docs/DEPLOY.md`](docs/DEPLOY.md)。
 
 ---
